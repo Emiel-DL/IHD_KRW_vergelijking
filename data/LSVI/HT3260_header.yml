@@ -1,0 +1,40 @@
+..generic:
+  git2rdata: 0.4.0
+  optimize: yes
+  NA string: NA
+  sorting: recording_givid
+  hash: e86b0d6812daf9896a8e7676b89cf5f603ab79c2
+  data_hash: 67cc6ca314ff24863512dbe77b5bb76170b64e69
+recording_givid:
+  class: character
+survey:
+  class: character
+user_reference:
+  class: character
+location:
+  class: character
+date:
+  class: character
+latitude:
+  class: numeric
+longitude:
+  class: numeric
+type_observed:
+  class: factor
+  labels:
+  - gh
+  - unknown
+  - '3260'
+  index:
+  - 1
+  - 2
+  - 3
+  ordered: no
+reliability:
+  class: character
+suitable_mhq:
+  class: logical
+measured:
+  class: logical
+comment_not_measured:
+  class: character
